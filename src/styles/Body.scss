@@ -1,0 +1,18 @@
+.body {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  h2{
+      color: black;
+      font-family: "Fraunces", serif;
+    font-size: 25px;
+  }
+
+  .desc{
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    color: hsl(213, 9%, 39%);
+    text-align: left;
+    padding: 10% 15% 10% 15%;
+  }
