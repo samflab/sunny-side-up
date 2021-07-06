@@ -1,18 +1,85 @@
 .body {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  }
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.text-col {
+  padding: 10% 25% 10% 25%;
+  text-align: left;
+}
+h2 {
+  color: hsl(212, 27%, 19%);
+  font-family: "Fraunces", serif;
+  font-size: 35px;
+}
 
-  h2{
-      color: black;
-      font-family: "Fraunces", serif;
-    font-size: 25px;
-  }
+.desc {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  color: hsl(232, 10%, 55%);
+  font-weight: 500;
+  text-align: left;
+}
 
-  .desc{
-    font-family: 'Barlow', sans-serif;
-    font-size: 18px;
-    color: hsl(213, 9%, 39%);
-    text-align: left;
-    padding: 10% 15% 10% 15%;
+.learn-more,
+.learn-more-two {
+  font-family: "Fraunces", serif;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  color: hsl(212, 27%, 19%);
+  letter-spacing: 1px;
+  border-bottom: 5px solid hsla(51, 100%, 49%, 0.356);
+  padding: 0;
+}
+
+.learn-more-two {
+  border-bottom: 5px solid hsla(7, 99%, 70%, 0.562);
+}
+
+.image,
+.image-two,
+.image-three,
+.image-four {
+  background-image: url("../egg.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 70vh;
+}
+.image-two {
+  background-image: url("../glass.jpg");
+}
+
+.image-three {
+  background-image: url("../cherry.jpg");
+}
+
+.image-four {
+  background-image: url("../orange.jpg");
+}
+
+.image-heading {
+  font-family: "Fraunces", sans-serif;
+  font-size: 28px;
+  color: hsl(198, 62%, 26%);
+  width: auto;
+  text-align: center;
+  padding: 60% 20% 0% 20%;
+}
+
+.image-desc {
+  font-family: "Barlow", sans-serif;
+  color: hsl(198, 62%, 26%);
+  font-size: 17px;
+  width: auto;
+  text-align: center;
+  padding: 0% 20% 0% 20%;
+}
+
+@media screen and (min-width: 660px) {
+  .image-heading{
+    padding: 50% 20% 0% 20%;
   }
+  .image-desc{
+    padding: 0% 20% 0% 20%;
+  }
+}
