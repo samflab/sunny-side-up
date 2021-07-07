@@ -1,0 +1,50 @@
+@import "~bootstrap/scss/bootstrap";
+.card {
+  border: none;
+}
+.testimonial {
+  font-family: "Fraunces", serif;
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: hsl(232, 10%, 55%);
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+.card-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+img {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+}
+
+.testimonial-desc {
+  font-family: "Barlow", sans-serif;
+  font-size: 17px;
+  color: hsl(213, 9%, 39%);
+}
+
+.client-name {
+  font-family: "Fraunces", sans-serif;
+  color: hsl(212, 27%, 19%);
+}
+
+.client-position {
+  color: hsl(210, 4%, 67%);
+  font-family: "Barlow", sans-serif;
+}
+
+@media screen and (max-width: 660px) {
+  .testimonial{
+    margin-top: 12%;
+    margin-bottom: 10%;
+  }
+  .card-div{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
