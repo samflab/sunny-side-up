@@ -14,7 +14,7 @@ class Testimonial extends Component {
           <Card className="card" style={{ width: "23rem" }}>
             <Card.Body>
               <Card.Title className="title-img">
-                <img alt="user-pic" src={test1} />
+                <img className="client-images"alt="user-pic" src={test1} />
               </Card.Title>
               <Card.Text>
                 <p className="testimonial-desc">
@@ -30,7 +30,7 @@ class Testimonial extends Component {
           <Card className="card" style={{ width: "23rem" }}>
             <Card.Body>
               <Card.Title className="title-img">
-                <img alt="user-pic" src={test2} />
+                <img className="client-images" alt="user-pic" src={test2} />
               </Card.Title>
               <Card.Text>
                 <p className="testimonial-desc">
@@ -45,7 +45,7 @@ class Testimonial extends Component {
           <Card className="card" style={{ width: "23rem" }}>
             <Card.Body>
               <Card.Title className="title-img">
-                <img alt="user-pic" src={test3} />
+                <img className="client-images" alt="user-pic" src={test3} />
               </Card.Title>
               <Card.Text>
                 <p className="testimonial-desc">

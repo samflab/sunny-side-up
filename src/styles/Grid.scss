@@ -1,0 +1,16 @@
+.image-grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.food-image{
+    height: auto;
+    width: 25%;
+}
+
+@media screen and (max-width:660px) {
+    .food-image{
+        width: 50%;
+    }
+    
+}

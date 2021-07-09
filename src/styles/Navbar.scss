@@ -1,0 +1,62 @@
+.navbar {
+  background-color: #3ebefe;
+}
+.navbar-brand {
+  color: #ffffff !important;
+  font-family: "Fraunces", serif;
+  font-size: 25px !important;
+  cursor: pointer;
+  margin-left: 2%;
+}
+.right-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 1%;
+  margin-right: 5%;
+}
+
+.nav-links {
+  font-family: "Barlow", sans-serif;
+  font-size: 16px !important;
+  color: #ffffff !important;
+  margin-right: 25px;
+}
+.contact-us{
+    background-color: #ffffff;
+    border: none;
+    color: black;
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 2% 5% 2% 5%;
+    font-family: "Fraunces", serif;
+    font-weight: 500;
+}
+
+.contact-us:hover{
+    background-color: rgba(255, 255, 255, 0.39);
+    color: #ffffff;
+}
+
+@media screen and (max-width:660px) {
+    #responsive-navbar-nav{
+        background-color: #ffffff !important;
+        padding-bottom: 4%;
+        border-radius: 2.5rem 0rem 2.5rem 2.5rem;
+    }
+    .nav-links{
+        color: hsl(213, 9%, 39%) !important;
+        margin-right: 0px;
+    }
+    .contact-us{
+        background-color: hsl(51, 100%, 49%);
+        width: 30%;
+        align-self: center;
+        color: hsl(212, 27%, 19%);
+    }
+
+    .contact-us:hover{
+        background-color: hsla(51, 100%, 49%, 0.432);
+        color: hsl(212, 27%, 19%);
+    }
+}
